@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jain Electric</title>
+
+    <!-- Bootstrap CDN Link -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Bootstrap JS CDN -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- CSS Stylesheet -->
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html" id="logo"><img src="Images/fulllogo.png" alt="" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products-page">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="first-page">
+        <div class="first-page-img"></div>
+        <div class="first-page-text">
+            <h1>Jain Electric</h1>
+            <p>Supplier of all kinds of Regulator, Dimmer</p>
+            <p>Trusted by over 1000 Retailers all over India</p>
+        </div>
+    </div>
+    <div class="products-page" id="products-page">
+        <h2>Products</h2>
+        <div class="card text-center" style="width: 45vw;">
+            <img class="card-img-top" src="Images/5step.jpg">
+            <div class="card-body">
+                <h5 class="card-title">5-Step Regulator</h5>
+                <p class="card-text">Some quick example text</p>
+                <a href="5step.html" class="btn btn-outline-warning">See Details</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 45vw;">
+            <img class="card-img-top" src="Images/5step.jpg">
+            <div class="card-body">
+                <h5 class="card-title">7-Step Regulator</h5>
+                <p class="card-text">Some quick example text</p>
+                <a href="7step.html" class="btn btn-outline-warning">See Details</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 45vw;">
+            <img class="card-img-top" src="Images/5step.jpg">
+            <div class="card-body">
+                <h5 class="card-title">4-Step Regulator</h5>
+                <p class="card-text">Some quick example text</p>
+                <a href="4step.html" class="btn btn-outline-warning">See Details</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 45vw;">
+            <img class="card-img-top" src="Images/5step.jpg">
+            <div class="card-body">
+                <h5 class="card-title">&nbsp;&nbsp;&nbsp;&nbsp;Dimmer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+                <p class="card-text">Some quick example text</p>
+                <a href="dimmer.html" class="btn btn-outline-warning">See Details</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 45vw;">
+            <img class="card-img-top" src="Images/5step.jpg">
+            <div class="card-body">
+                <h5 class="card-title">Surface</h5>
+                <p class="card-text">Some quick example text</p>
+                <a href="surface.html" class="btn btn-outline-warning">See Details</a>
+            </div>
+        </div>
+        <div class="card text-center" style="width: 45vw;">
+            <img class="card-img-top" src="Images/5step.jpg">
+            <div class="card-body">
+                <h5 class="card-title">Modulator</h5>
+                <p class="card-text">Some quick example text</p>
+                <a href="modulator.html" class="btn btn-outline-warning">See Details</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="contact-div" id="contact">
+            <img src="Images/profile.jfif" class="profile-pic">
+            <h3 style="margin-bottom: 3px;">Hemant Bhansali</h3>
+            <p>Running this company for over 15 Years</p>
+            <p>&nbsp;</p>
+            <table>
+                <tr>
+                    <td style="color: #343F56; padding: 2px; text-align: left;vertical-align: top;">Contact Number:</td>
+                    <td style="color: #343F56; padding: 2px; text-align: left;vertical-align: top;">+91 9712744358</td>
+                    <td><button class="btn btn-sm bttn" onclick="copyNumber()">Copy</button><br></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="color: #343F56; padding: 2px; text-align: left;vertical-align: top;">UPI Id:</td>
+                    <td style="color: #343F56; padding: 2px; text-align: left;vertical-align: top;">blahblah@blah</td>
+                    <td><button class="btn btn-sm bttn" onclick="copyUPI()">Copy</button><br></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="color: #343F56; padding: 2px; text-align: left;vertical-align: top;">Address:</td>
+                    <td style="color: #343F56; padding: 2px; text-align: left;vertical-align: top;">5, Aradhna Complex, Khatri Pole, Gandhi Road, Ahmedabad-380001</td>
+                    <td><button class="btn btn-sm bttn" onclick="openMap()">Map&nbsp;</button><br></td>
+                </tr>
+            </table>
+            
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
